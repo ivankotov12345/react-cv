@@ -8,6 +8,7 @@ const stylesContacts = StyleSheet.create({
         display: 'flex',
         justifyContent: 'center',
         borderBottom: '3px solid #4CF5F2',
+        overflowX: 'hidden',
         '@media (max-width: 700px)': {
             position: 'relative',
             overflowX: 'hidden',
