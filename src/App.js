@@ -26,7 +26,7 @@ function App() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const linkArr = ['/', '/about', '/skills', '/activities', '/contacts']
+  const linkArr = ['/react-cv/', '/react-cv/about', '/react-cv/skills', '/react-cv/activities', '/react-cv/contacts']
 
 
   const goForward = () => {   
@@ -68,11 +68,11 @@ function App() {
 
       </header>
       <Routes>
-        <Route path='/' element = {<Main />}/>
-        <Route path='/about' element = {<About />}/>
-        <Route path='/skills' element = {<Skills />}/>
-        <Route path='/activities' element = {<Activities />}/>
-        <Route path='/contacts' element = {<Contacts />}/>
+        <Route path='/react-cv/' element = {<Main />}/>
+        <Route path='/react-cv/about' element = {<About />}/>
+        <Route path='/react-cv/skills' element = {<Skills />}/>
+        <Route path='/react-cv/activities' element = {<Activities />}/>
+        <Route path='/react-cv/contacts' element = {<Contacts />}/>
       </Routes>
       
       <footer className={css(stylesApp.containerFooter)}>
