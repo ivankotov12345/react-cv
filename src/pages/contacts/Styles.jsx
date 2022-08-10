@@ -51,6 +51,9 @@ const stylesContacts = StyleSheet.create({
         '@media (max-width: 400px)': {
             fontSize: '1.5rem',
         },
+        '@media (max-height: 500px)': {
+            fontSize: '1.5rem',
+        },
     },
 
     tableContacts: {

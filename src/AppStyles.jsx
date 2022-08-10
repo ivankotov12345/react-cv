@@ -137,6 +137,9 @@ const stylesApp = StyleSheet.create({
         },
         '@media (max-width: 600px)': {
             paddingLeft: '0',
+        },
+        '@media ( orientation: landscape )': {
+            fontSize: '2em',
         }
     },
 
@@ -174,7 +177,10 @@ const stylesApp = StyleSheet.create({
         maxWidth: '1440px',
         '@media (max-width: 768px)': {
             paddingRight: '0',
-        }
+        },
+        '@media (max-height: 500px)':{
+            height: '10vh',
+        },
     },
 
     arrowButton: {
@@ -211,6 +217,9 @@ const stylesApp = StyleSheet.create({
                 animationDelay: '.9s',
                 textShadow: '0 0 5px #4cf5f2, 0 0 10px #4cf5f2, 0 0 20px #4cf5f2',
         },
+        '@media (max-height: 500px)':{
+            fontSize: '1rem',
+        },
     },
 
     buttonRight: {
@@ -243,6 +252,9 @@ const stylesApp = StyleSheet.create({
                 animationDelay: '.9s',
                 textShadow: '0 0 5px #4cf5f2, 0 0 10px #4cf5f2, 0 0 20px #4cf5f2',
             },
+            '@media (max-height: 500px)':{
+                fontSize: '1rem',
+            },
     },
 
     containerFooter: {
@@ -253,7 +265,10 @@ const stylesApp = StyleSheet.create({
         height: '7vh',
         '@media (max-width: 768px)': {
             justifyContent: 'center',
-        }
+        },
+        '@media (max-height: 500px)':{
+            height: '10vh',
+        },
     },
 });
 

@@ -37,6 +37,10 @@ const stylesMain = StyleSheet.create({
             flexDirection: 'column',
             justifyContent: 'center',
         },
+        '@media ( orientation: landscape )':{
+            flexDirection: 'row',
+            justifyContent: 'space-around',
+        },
         '@media (max-width: 500px)': {
             justifyContent: 'space-around',
         }
@@ -45,15 +49,19 @@ const stylesMain = StyleSheet.create({
     imgWrapper: {
         overflow: 'hidden',
         borderRadius: '25px',
-        width: '58%',
+        width: '50%',
         position: 'relative',
-        paddingBottom: '35%',
+        paddingBottom: '30%',
         animationName: fadeIn,
         animationDuration: '2s',
         '@media (max-width: 690px)': {
             width: '80%',
             paddingBottom: '50%',
-        }
+        },
+        '@media (orientation: landscape)':{
+            width: '50%',
+            paddingBottom: '30%',
+        },
     },
 
     imageCV: {

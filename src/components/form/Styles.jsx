@@ -22,6 +22,9 @@ const stylesForm = StyleSheet.create({
         '@media (max-width: 500px)': {
             fontSize: '1rem',
         },
+        '@media (max-height: 500px)': {
+            fontSize: '.7rem',
+        },
     },
 
     field: {
@@ -38,7 +41,10 @@ const stylesForm = StyleSheet.create({
     },
 
     messageField: {
-        height: '45%'
+        height: '45%',
+        '@media (max-height: 400px)': {
+            height: '50px',
+        },
     },
 
     formBtn: {
@@ -50,6 +56,7 @@ const stylesForm = StyleSheet.create({
         border: 'none',
         fontSize: '1rem',
         transition: '.3s ease-in-out',
+        borderRadius: '3px',
         ':hover': {
             boxShadow: '0 0 5px #4cf5f2, 0 0 10px #4cf5f2, 0 0 20px #4cf5f2',
         }

@@ -30,6 +30,9 @@ const StylesNav = StyleSheet.create({
         mask: 'linear-gradient(top, rgba(76, 245, 242, 0) 0 1%, rgba(76, 245, 242, 1) 5% 96%, rgba(76, 245, 242, 0) 98% 100%)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
+        '@media ( orientation: landscape )': {
+            height: '80vh',
+        },
     },
 
     backgroundNav: {
@@ -67,26 +70,43 @@ const StylesNav = StyleSheet.create({
     lineBurger: {
         content: '""',
         width: '45px',
-        border: '2px solid #fff',
+        borderBottom: '2px solid #fff',
         position: 'absolute',
         transition: '.3s ease-in-out',
         '::before': {
             content: '""',
             width: '45px',
-            border: '2px solid #fff',
+            borderBottom: '2px solid #fff',
             position: 'absolute',
             transition: '.3s ease-in-out',
             top: '10px',
-            right: '-2px',
+            right: '0',
         },
         '::after': {
             content: '""',
             width: '45px',
-            border: '2px solid #fff',
+            borderBottom: '2px solid #fff',
             position: 'absolute',
             transition: '.3s ease-in-out',
             bottom: '10px',
-            right: '-2px',
+            right: '0',
+        },
+        '@media ( orientation: landscape )': {
+            width: '30px',
+            borderBottom: '1px solid #fff',
+            '::before': {
+                content: '""',
+                width: '30px',
+                borderBottom: '1px solid #fff',
+                position: 'absolute',
+                right: '0',
+            },
+            '::after': {
+                content: '""',
+                width: '30px',
+                borderBottom: '1px solid #fff',
+                right: '0',
+            },
         },
     },
 
@@ -94,11 +114,22 @@ const StylesNav = StyleSheet.create({
         border: 'none',
         '::before': {
             transform: 'rotate(-45deg)',
-            top: '-2px',
+            top: '-1px',
         },
         '::after': {
             transform: 'rotate(45deg)',
             bottom: '-2px',
+        },
+        '@media ( orientation: landscape )': {
+            border: 'none',
+            '::before': {
+                transform: 'rotate(-45deg)',
+                top: '0',
+            },
+            '::after': {
+                transform: 'rotate(45deg)',
+                bottom: '-1px',
+            },
         },
     },
 
