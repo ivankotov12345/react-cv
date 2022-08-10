@@ -79,7 +79,7 @@ const StylesNav = StyleSheet.create({
             borderBottom: '2px solid #fff',
             position: 'absolute',
             transition: '.3s ease-in-out',
-            top: '10px',
+            top: '12px',
             right: '0',
         },
         '::after': {
