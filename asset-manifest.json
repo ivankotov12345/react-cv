@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cv/static/css/main.1f6b58b8.css",
-    "main.js": "/react-cv/static/js/main.7221cb31.js",
+    "main.js": "/react-cv/static/js/main.7bef0ee4.js",
     "static/js/787.a71561b8.chunk.js": "/react-cv/static/js/787.a71561b8.chunk.js",
     "static/media/glowing.JPG": "/react-cv/static/media/glowing.aaacaed15ce52bbd0d83.JPG",
     "static/media/lightMagic.webp": "/react-cv/static/media/lightMagic.457502219d1a7dc98500.webp",
@@ -11,11 +11,11 @@
     "static/media/baseGuitarPlayer.webp": "/react-cv/static/media/baseGuitarPlayer.03ebbec28a5f17b6d968.webp",
     "index.html": "/react-cv/index.html",
     "main.1f6b58b8.css.map": "/react-cv/static/css/main.1f6b58b8.css.map",
-    "main.7221cb31.js.map": "/react-cv/static/js/main.7221cb31.js.map",
+    "main.7bef0ee4.js.map": "/react-cv/static/js/main.7bef0ee4.js.map",
     "787.a71561b8.chunk.js.map": "/react-cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6b58b8.css",
-    "static/js/main.7221cb31.js"
+    "static/js/main.7bef0ee4.js"
   ]
 }
