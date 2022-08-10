@@ -8,7 +8,7 @@ const stylesContacts = StyleSheet.create({
         display: 'flex',
         justifyContent: 'center',
         borderBottom: '3px solid #4CF5F2',
-        '@media (max-width: 650px)': {
+        '@media (max-width: 700px)': {
             position: 'relative',
             overflowX: 'hidden',
             '::-webkit-scrollbar': {
