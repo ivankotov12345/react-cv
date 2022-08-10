@@ -78,14 +78,14 @@ function App() {
       <footer className={css(stylesApp.containerFooter)}>
         <div className={css(stylesApp.buttonContainer)}>
         <button onClick={goBack} className={css(stylesApp.buttonLeft)}>
-        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>⮜</span>
-        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>⮜</span>
-        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>⮜</span>
+        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>❮</span>
+        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>❮</span>
+        <span className={css(stylesApp.arrowButton, stylesApp.arrowButtonLeft)}>❮</span>
         </button>
         <button onClick={goForward} className={css(stylesApp.buttonRight)}>
-        <span className={css(stylesApp.arrowButton)}>⮞</span>
-        <span className={css(stylesApp.arrowButton)}>⮞</span>
-        <span className={css(stylesApp.arrowButton)}>⮞</span>
+        <span className={css(stylesApp.arrowButton)}>❯</span>
+        <span className={css(stylesApp.arrowButton)}>❯</span>
+        <span className={css(stylesApp.arrowButton)}>❯</span>
         </button>
         </div>
       </footer>
