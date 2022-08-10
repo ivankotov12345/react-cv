@@ -13,6 +13,9 @@ const stylesForm = StyleSheet.create({
         '@media (max-width: 450px)': {
             width: '70vw',
         },
+        '@media (max-height: 400px)': {
+            height: '150%',
+        },
     },
 
     label: {
@@ -42,8 +45,8 @@ const stylesForm = StyleSheet.create({
 
     messageField: {
         height: '45%',
-        '@media (max-height: 400px)': {
-            height: '50px',
+        '@media (max-height: 450px)': {
+            height: '60px',
         },
     },
 
