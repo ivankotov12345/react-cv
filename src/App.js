@@ -5,7 +5,7 @@ import Activities from './pages/activities/Activities';
 import Contacts from './pages/contacts/Contacts';
 import Navigation820 from './components/navigation/width820px/Navigation820';
 import Navigation819 from './components/navigation/width819px/Navigation819';
-import { Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { css } from 'aphrodite/no-important';
 import stylesApp from './AppStyles.jsx'
 import Particle from './components/Particle';
