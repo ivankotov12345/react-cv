@@ -115,6 +115,9 @@ const stylesAbout = StyleSheet.create({
         '@media (max-width: 650px)': {
             bottom: '0',
         },
+        '@media (max-height: 400px)': {
+            bottom: '-20px',
+        },
     },
 });
 
