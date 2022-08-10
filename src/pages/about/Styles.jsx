@@ -112,6 +112,9 @@ const stylesAbout = StyleSheet.create({
         backgroundPosition: '40% 0',
         mask: 'linear-gradient(top, rgba(76, 245, 242, 0), rgba(76, 245, 242, 1))',
         padding: '0',
+        '@media (max-width: 650px)': {
+            bottom: '0',
+        },
     },
 });
 
