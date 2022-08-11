@@ -20,7 +20,7 @@ const About = () => {
 
                     <div className={css(stylesAbout.cellStyle)}>
                         <h3 className={css(stylesAbout.HeaderStyle)}>Education</h3>
-                        <p className={css(stylesAbout.text)}>Belarussian-Russian Univercity</p>
+                        <p className={css(stylesAbout.text)}>Belarussian-Russian University</p>
                     </div>
 
                     <div className={css(stylesAbout.cellStyle)}>
