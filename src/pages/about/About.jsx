@@ -8,7 +8,7 @@ const About = () => {
         <div className={css(stylesAbout.container)}>
             <div className={css(stylesAbout.fadeIn)}>
                 <h2 className={css(stylesAbout.HeaderStyle, stylesAbout.title)}>About</h2>
-                <p className={css(stylesAbout.text)}>Started my career as engineer in 2019, and worked for some local factories until now. Proved myself as capable, flexible team worker with an great sence of humor have abilities to learning.</p>
+                <p className={css(stylesAbout.text)}>Started my career as engineer in 2019, and worked for some local factories until now. Proved myself as capable, flexible team worker with an great sence of humor. I have abilities to learning.</p>
 
 
                 
